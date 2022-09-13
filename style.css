@@ -11,10 +11,11 @@ header{
     letter-spacing: 1px;
     font-size: 18px;
 }
-nav{
+nav a li {
     text-align: center;
      display: flex;
      flex-direction: row;
+     text-decoration: none;
      
      
 }
@@ -28,7 +29,6 @@ nav a{
 main{
     
     margin: 0%  13%;
-    background-color: white;
     display: flex;
     flex-direction: row;  
     max-width: 100%;
