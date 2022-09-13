@@ -1,4 +1,3 @@
-
 body{
     padding: 0%;
     margin: 0%;
@@ -10,19 +9,52 @@ header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;
     font-size: 18px;
+    
 }
-nav a li {
-    text-align: center;
-     text-decoration: none;
-     padding-left: 20px;
-     
+nav{
+    text-decoration: none;
+  
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+
+ hr{
+    color: gainsboro;
+ }  
+
+
+   
+
+nav  li a{
+  
+   
+     margin: 70px;
+    
+    
+    
      
 }
+
+li a:hover{
+    
+    color: #55a270;
+}
+
+
 nav a{
-    padding: 50px;
+    
     text-align: center;
     color: black;
     text-decoration: none;
+    
+    
+    
   
 }
 main{
@@ -31,6 +63,7 @@ main{
     display: flex;
     flex-direction: row;  
     max-width: 100%;
+    position: relative;
    
 }
 .centrale img{
@@ -91,6 +124,8 @@ article span{
      padding-left: 30px;
     padding-top: 40px;
     background-color: white;
+    padding-right: 10px;
+    position: relative;
 }
 .logo{
     height: 126px;
@@ -99,27 +134,36 @@ article span{
     display: flex;
     align-items: center;
     justify-content: center;
+    
    
 
 }
 .sousside{
     width: 312px ;
     padding-top: 20px;
-    padding-bottom: px;
+    
+   
+    
    
 }
 .sousside a{
    
     color: black;
     text-decoration: none;
+    
+    
    
 }
 .sousside p{
     font-size: 14px;
+   
+   
 }
 .sousside img{
     float: left;
     padding-right: 5px;
+
+    
 }
 
 .centrale p {
@@ -127,16 +171,21 @@ article span{
    
    
 }
-
+li{
+    list-style-type: none;
+}
 
 .newles{
     
     font-size: 13px;
-    width: 312px;
+    width: 310px;
     border: 1px solid gray;
-    margin: 20px;
+   
     height: 210px;
     background-color:  #efbcc0 ;
+    padding-right: 10px;
+    position: sticky;
+  
 
 }
 
@@ -146,9 +195,15 @@ p{
 }
     
 
-.ca li a {
+.ca  {
     color:#55a270;
 }
 button{
     padding: 10px;
+   
+}
+
+.newles input , button , p , h4{
+   
+    margin: 8px;
 }
