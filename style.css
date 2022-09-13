@@ -29,12 +29,14 @@ ul{
  }  
 
 
-   
+li a{
+    margin: 70px;
+} 
 
 nav  li a{
   
    
-     margin: 70px;
+ margin: 70px;
     
     
     
