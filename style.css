@@ -9,7 +9,10 @@ header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;
     font-size: 18px;
-    
+    position: fixed;
+    z-index: 10;
+    top: 0%;
+    width: 100%;
 }
 nav{
     text-decoration: none;
@@ -29,14 +32,12 @@ ul{
  }  
 
 
-li a{
-    margin: 70px;
-} 
+   
 
-nav  li a{
+ li a{
   
    
- margin: 70px;
+    margin: 70px;
     
     
     
@@ -60,8 +61,8 @@ nav a{
   
 }
 main{
-    
-    margin: 0%  13%;
+    padding-bottom: 50px;
+    margin: 30px  13%;
     display: flex;
     flex-direction: row;  
     max-width: 100%;
@@ -74,6 +75,7 @@ main{
  .centrale h3{
     text-align: center;
     color: #ef2132;
+
 }
  h1 {
     font-size: 40px;
@@ -82,7 +84,8 @@ main{
    padding-bottom: 20px;
 }
 .centrale{
-padding-top: 40px;
+    
+padding-top: 130px;
 background-color: white;
 
   
@@ -124,10 +127,10 @@ article span{
 
 .leside{
      padding-left: 30px;
-    padding-top: 40px;
+     padding-top: 130px;
     background-color: white;
     padding-right: 10px;
-    position: relative;
+    
 }
 .logo{
     height: 126px;
@@ -186,8 +189,8 @@ li{
     height: 210px;
     background-color:  #efbcc0 ;
     padding-right: 10px;
-    position: sticky;
-  
+    position: static;
+    z-index: 9;
 
 }
 
