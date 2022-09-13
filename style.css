@@ -49,6 +49,7 @@ main{
 }
 .centrale{
 padding-top: 40px;
+background-color: white;
 
   
 
@@ -56,6 +57,7 @@ padding-top: 40px;
 .centrale a{
     color: black;
     text-decoration: none;
+    
     
 }
 .bas{
@@ -66,6 +68,7 @@ padding-top: 40px;
    row-gap: 10px;
    column-gap: 20px;
    padding-bottom: 20px;
+   background-color: white;
 }
 .bas img {
     float: left;
@@ -88,6 +91,7 @@ article span{
 .leside{
      padding-left: 30px;
     padding-top: 40px;
+    background-color: white;
 }
 .logo{
     height: 126px;
