@@ -13,9 +13,8 @@ header{
 }
 nav a li {
     text-align: center;
-     display: flex;
-     flex-direction: row;
      text-decoration: none;
+     padding-left: 20px;
      
      
 }
