@@ -1,0 +1,151 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(235, 232, 232) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+header{
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+nav{
+    text-align: center;
+     display: flex;
+     flex-direction: row;
+     
+     
+}
+nav a{
+    padding: 50px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+  
+}
+main{
+    
+    margin: 0%  13%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;  
+   
+}
+.centrale img{
+  
+}
+ .centrale h3{
+    text-align: center;
+    color: #ef2132;
+}
+ h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 600px;
+   padding-bottom: 20px;
+}
+.centrale{
+padding-top: 40px;
+
+  
+
+}
+.centrale a{
+    color: black;
+    text-decoration: none;
+    
+}
+.bas{
+    padding-left: 40px;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   width: 650px;
+   row-gap: 10px;
+   column-gap: 20px;
+   padding-bottom: 20px;
+}
+.bas img {
+    float: left;
+    padding-right: 5px;
+}
+.enbasx2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 600px;
+}
+article span{
+    font-weight: 700;
+}
+
+
+
+.leside{
+     padding-left: 30px;
+    padding-top: 40px;
+}
+.logo{
+    height: 126px;
+    width: 320px;
+    background-color: #efbcc0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.sousside{
+    width: 312px ;
+    padding-top: 20px;
+    padding-bottom: px;
+   
+}
+.sousside a{
+   
+    color: black;
+    text-decoration: none;
+   
+}
+.sousside p{
+    font-size: 14px;
+}
+.sousside img{
+    float: left;
+    padding-right: 5px;
+}
+
+.centrale p {
+    font-size: 14px;
+   
+   
+}
+
+
+.newles{
+    
+    font-size: 13px;
+    width: 312px;
+    border: 1px solid gray;
+    margin: 10px;
+    height: 210px;
+    
+}
+
+
+p{
+    margin:  8 0px;
+}
+    
+
+
+
+.ca a {
+    color:#55a270;
+}
+nav a :hover{
+    color: #e8b21e;
+}
