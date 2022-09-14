@@ -13,21 +13,23 @@ header{
     z-index: 10;
     top: 0%;
     width: 100%;
+    border-bottom: 1px solid gray;
+   
+  
 }
+
 header img{
     padding-left: 20px;
     padding-top: 6px;
+}
 nav{
     text-decoration: none;
-  
     
 }
 ul{
     display: flex;
     flex-direction: row;
-    
-    
-    
+   
 }
 
  hr{
@@ -39,12 +41,8 @@ ul{
 
  li a{
   
-   
     margin: 70px;
-    
-    
-    
-     
+        
 }
 
 li a:hover{
@@ -52,15 +50,12 @@ li a:hover{
     color: #55a270;
 }
 
-
 nav a{
     
     text-align: center;
     color: black;
     text-decoration: none;
-    
-    
-    
+       
   
 }
 main{
@@ -69,8 +64,8 @@ main{
     display: flex;
     flex-direction: row;  
     max-width: 100%;
-    position: relative;
-   
+    background-color: white;
+   padding-bottom: 20px;
 }
 .centrale img{
   
@@ -90,6 +85,7 @@ main{
     
 padding-top: 130px;
 background-color: white;
+
 
   
 
@@ -121,6 +117,7 @@ background-color: white;
     padding-top: 40px;
     padding-left: 40px;
     width: 600px;
+    background-color: white;
 }
 article span{
     font-weight: 700;
@@ -135,6 +132,8 @@ article span{
     padding-right: 10px;
     
 }
+
+
 .logo{
     height: 126px;
     width: 320px;
@@ -192,9 +191,8 @@ li{
     height: 210px;
     background-color:  #efbcc0 ;
     padding-right: 10px;
-    position: static;
-    z-index: 9;
-
+   
+  
 }
 
 
@@ -214,4 +212,30 @@ button{
 .newles input , button , p , h4{
    
     margin: 8px;
+}
+@media ( max-width:1000px ) {
+    main{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       background: 100%;
+      
+        
+    }
+    .leside{
+        width :650px;
+        
+        
+      }
+
+    header {
+     flex-wrap: wrap;
+    }
+    
+    .centrale{
+      align-items: center;
+      justify-content: center;
+    }
+    
 }
