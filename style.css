@@ -220,22 +220,33 @@ button{
        justify-content: center;
        align-items: center;
        background: 100%;
+       background-color: white;
+       padding-top: 120px;
       
         
     }
     .leside{
         width :650px;
+        padding-left: 400px;
         
         
       }
 
-    header {
-     flex-wrap: wrap;
+    header ul {
+        flex-direction: column;
+        text-align: center;
+        
+     
+    }
+  
+    body{
+        background-color: white;
     }
     
     .centrale{
-      align-items: center;
-      justify-content: center;
+     padding-left: 250px;
     }
     
 }
+
+    
